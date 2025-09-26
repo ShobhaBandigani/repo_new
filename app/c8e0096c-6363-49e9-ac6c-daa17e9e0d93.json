@@ -1,0 +1,15 @@
+{
+  "description": null,
+  "pageDefinitionId": "c8e0096c-6363-49e9-ac6c-daa17e9e0d93",
+  "pageSchema": {
+    "properties": {},
+    "controlSchema": {
+      "schema": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  },
+  "title": "page1",
+  "versionName": "1.0"
+}
