@@ -6,7 +6,79 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "chart",
+            "controlId": "e2bb36de-33f9-4924-a2a8-ac7868a80ca6",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "e2bb36de-33f9-4924-a2a8-ac7868a80ca6",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "car_sales",
+              "type": "table",
+              "isReadOnly": false,
+              "schema": "$framework",
+              "seriesColors": {
+                "price": "#A67BC7"
+              },
+              "customLabels": {
+                "price": "price"
+              }
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "chartType": "line",
+            "title": "",
+            "subtitle": "",
+            "xAxis": {
+              "title": {
+                "text": ""
+              },
+              "type": ""
+            },
+            "yAxis": {
+              "title": {
+                "text": ""
+              }
+            },
+            "ref": {},
+            "xAxisField": "model",
+            "yAxisFields": [
+              "price"
+            ],
+            "layoutSize": null,
+            "titleAlignment": "left",
+            "subtitleAlignment": "left",
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosition": "right",
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },
