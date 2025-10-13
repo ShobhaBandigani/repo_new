@@ -4,15 +4,17 @@
   "applicationName": "gitApp2",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
+  "gitSubpath": "",
   "gitUrl": "https://github.com/ShobhaBandigani/repo_new",
   "sections": [
     {
-      "accessRoles": null,
-      "privileges": null,
       "name": "section1",
       "icon": "Address Book",
       "pageDefinitionId": "5e939096-dd85-49dd-a036-0a45be9555c9",
-      "sections": []
+      "sections": [],
+      "accessRoles": null,
+      "privileges": null,
+      "tagIds": null
     }
   ],
   "tagIds": []
