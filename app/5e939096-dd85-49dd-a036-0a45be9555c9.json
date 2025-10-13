@@ -6,7 +6,82 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "chart",
+            "controlId": "6c158728-260c-432c-bfcd-92a9265c7245",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [
+              {
+                "name": "$onPageLoad",
+                "eventSelection": "BIND_EVENT",
+                "id": "6c158728-260c-432c-bfcd-92a9265c7245",
+                "handlers": [
+                  "refresh"
+                ],
+                "handlerArgs": [
+                  {}
+                ],
+                "preHandlers": [],
+                "preHandlerArgs": []
+              }
+            ],
+            "datasource": {
+              "name": "sampleQuery",
+              "type": "view",
+              "isReadOnly": true,
+              "schema": "$framework",
+              "seriesColors": {
+                "$id": "#3e99ab",
+                "$version": "#EDA20C"
+              },
+              "customLabels": {
+                "$id": "$id",
+                "$version": "$version"
+              }
+            },
+            "pagination": {
+              "currentPage": 1,
+              "totalItems": null,
+              "itemsPerPage": 200
+            },
+            "columns": [],
+            "whereClauseVariable": null,
+            "chartType": "line",
+            "title": "chartComp",
+            "subtitle": "",
+            "xAxis": {
+              "title": {
+                "text": ""
+              },
+              "type": ""
+            },
+            "yAxis": {
+              "title": {
+                "text": ""
+              }
+            },
+            "ref": {},
+            "xAxisField": "name",
+            "yAxisFields": [
+              "$id",
+              "$version"
+            ],
+            "layoutSize": null,
+            "titleAlignment": "left",
+            "subtitleAlignment": "left",
+            "helpIconValue": null,
+            "helpIconPosition": "alignLeft",
+            "helpIconTooltipPosition": "right",
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },
