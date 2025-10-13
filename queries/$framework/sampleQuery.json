@@ -1,0 +1,7 @@
+{
+  "savedInEditor": true,
+  "isValid": true,
+  "name": "sampleQuery",
+  "schemaName": "$framework",
+  "xsql": "select * from $framework.table1 where name='ANG';"
+}

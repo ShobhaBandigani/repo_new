@@ -1,0 +1,52 @@
+{
+  "id": "entbe0573cabef3f46183674fdadea75",
+  "schemaName": "$framework",
+  "tableName": "table1",
+  "externalTableName": "biz_40321___framework__table1__1249403998Z",
+  "columns": [
+    {
+      "name": "name",
+      "index": 0,
+      "systemColumn": false,
+      "nameEscaped": false,
+      "aggregate": false,
+      "mathematicalFunction": false,
+      "externalNameOnly": "name",
+      "primaryOrdinal": 0,
+      "rowsMetadata": false,
+      "pivotColumn": false,
+      "pivotRow": false,
+      "dataType": {
+        "type": "STRING",
+        "size": 0,
+        "scale": 0,
+        "identitySeed": 0,
+        "identityIncrement": 0,
+        "identity": false,
+        "max": false
+      },
+      "escapedExternalName": "name",
+      "externalIndex": 0,
+      "flex": false,
+      "externalName": "name",
+      "nullable": true,
+      "deleted": false,
+      "ordered": 0,
+      "escapedName": "name"
+    }
+  ],
+  "constraints": [],
+  "overwrite": false,
+  "unlogged": false,
+  "archive": false,
+  "local": false,
+  "temporary": false,
+  "preserveRows": false,
+  "selectionSet": false,
+  "audited": true,
+  "effectiveDated": false,
+  "attributes": {
+    "visible": "true"
+  },
+  "externalTableSuffix": "__1249403998Z"
+}

@@ -3,5 +3,13 @@
   "pageDefinitions": [
     "app/5e939096-dd85-49dd-a036-0a45be9555c9.json"
   ],
-  "compositeComponents": []
+  "compositeComponents": [],
+  "tables": {
+    "schemas": [
+      "tables/schemas/$framework/table1.json"
+    ]
+  },
+  "queries": [
+    "queries/$framework/sampleQuery.json"
+  ]
 }
