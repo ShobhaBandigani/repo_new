@@ -73,7 +73,7 @@
               "$id",
               "$version"
             ],
-            "layoutSize": null,
+            "layoutSize": 16.66,
             "titleAlignment": "left",
             "subtitleAlignment": "left",
             "helpIconValue": null,
