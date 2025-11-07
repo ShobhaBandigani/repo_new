@@ -1,3 +1,12 @@
 {
-  "application": "app/Application.json"
+  "application": "app/Application.json",
+  "pageDefinitions": [
+    "app/0c8f344d-1abc-411f-b375-f339d881751a.json"
+  ],
+  "compositeComponents": [
+    {
+      "pageDefinitionId": "0c8f344d-1abc-411f-b375-f339d881751a",
+      "path": null
+    }
+  ]
 }
