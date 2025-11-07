@@ -6,7 +6,26 @@
     "controlSchema": {
       "schema": {
         "type": "object",
-        "properties": {}
+        "properties": {
+          "control_1": {
+            "type": "button",
+            "controlId": "6c51f0b7-f1bc-4645-9240-e4764a767e9e",
+            "accessRoles": null,
+            "privileges": null,
+            "styles": {
+              "useComponentShadow": false,
+              "useGreyBackground": false,
+              "useInnerGreyBackground": false
+            },
+            "events": [],
+            "controlData": "Button",
+            "layoutSize": null,
+            "buttonColorType": "primary",
+            "icon": "",
+            "iconPosition": "left",
+            "shouldRenderHidden": false
+          }
+        }
       }
     }
   },
