@@ -1,21 +1,10 @@
 {
   "accessRoles": [],
-  "applicationId": "91097ef1-23e9-4779-957d-ce08b4a9dc8d",
-  "applicationName": "gitApp2",
+  "applicationId": "30b0555a-d1dd-4bb9-96f4-222958e4ed93",
+  "applicationName": "gitAPp",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
-  "gitSubpath": "",
   "gitUrl": "https://github.com/ShobhaBandigani/repo_new",
-  "sections": [
-    {
-      "name": "section1",
-      "icon": "Address Book",
-      "pageDefinitionId": "5e939096-dd85-49dd-a036-0a45be9555c9",
-      "sections": [],
-      "accessRoles": null,
-      "privileges": null,
-      "tagIds": null
-    }
-  ],
+  "sections": [],
   "tagIds": []
 }
