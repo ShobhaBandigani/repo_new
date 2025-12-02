@@ -33,10 +33,10 @@
               }
             ],
             "datasource": {
-              "name": "tableIndemo",
+              "name": "demotable",
               "type": "table",
               "isReadOnly": false,
-              "schema": "$framework",
+              "schema": "demo",
               "seriesColors": {}
             },
             "pagination": {
@@ -122,6 +122,18 @@
                 "name": "$modified_instant",
                 "headerName": "$modified_instant",
                 "dataType": "instant",
+                "editable": false,
+                "isPrimaryKey": false,
+                "formattingStyle": "default",
+                "sortable": false,
+                "readOnly": false,
+                "pinned": false
+              },
+              {
+                "field": "value",
+                "name": "value",
+                "headerName": "value",
+                "dataType": "long",
                 "editable": false,
                 "isPrimaryKey": false,
                 "formattingStyle": "default",
