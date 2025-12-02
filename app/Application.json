@@ -1,19 +1,10 @@
 {
   "accessRoles": [],
-  "applicationId": "30b0555a-d1dd-4bb9-96f4-222958e4ed93",
-  "applicationName": "gitAPp",
+  "applicationId": "1eaf1f70-ed48-46ad-ae67-66c5f62bc4b3",
+  "applicationName": "gitaconnectschema",
   "applicationState": "DRAFT",
   "defaultBranch": "main",
   "gitUrl": "https://github.com/ShobhaBandigani/repo_new",
-  "sections": [
-    {
-      "accessRoles": null,
-      "privileges": null,
-      "name": "section",
-      "icon": "Alert Circle",
-      "pageDefinitionId": "0c8f344d-1abc-411f-b375-f339d881751a",
-      "sections": []
-    }
-  ],
+  "sections": [],
   "tagIds": []
 }
