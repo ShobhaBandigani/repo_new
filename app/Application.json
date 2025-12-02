@@ -5,6 +5,15 @@
   "applicationState": "DRAFT",
   "defaultBranch": "main",
   "gitUrl": "https://github.com/ShobhaBandigani/repo_new",
-  "sections": [],
+  "sections": [
+    {
+      "accessRoles": null,
+      "privileges": null,
+      "name": "section1",
+      "icon": "Alert Circle",
+      "pageDefinitionId": "2036e562-2456-4063-bd46-c4901abb7862",
+      "sections": []
+    }
+  ],
   "tagIds": []
 }
